@@ -3,7 +3,7 @@ class Solution {
         int count = 0;
         for(int i=0; i<s.length(); i++){
             count += expandAroundCenter(s, i, i);
-            count += expandAroundCenter(s, i,i+1);
+            count += expandAroundCenter(s, i, i+1);
         }
         return count;
     }
