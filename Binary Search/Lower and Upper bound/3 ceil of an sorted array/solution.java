@@ -1,4 +1,3 @@
-// User function Template for Java
 class Solution {
     public int findCeil(int[] arr, int x) {
         // code here
